@@ -1,5 +1,7 @@
 package cn.itcast.dao;
 
+import java.io.IOException;
+
 import cn.itcast.pojo.User;
 
 /* *
@@ -18,6 +20,7 @@ public interface UserDao {
 	/** 用户注册功能
 	 * @param  user
 	 * 要注册的信息
+	 * @throws IOException 
 	 */
 	public abstract void  regist(User user);
 }
